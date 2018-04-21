@@ -1,2 +1,2 @@
 # storageDao
-Biblioteca para manipular como tabelas não relacionais.
+Biblioteca para manipular localStorage como tabelas não relacionais.
