@@ -109,6 +109,11 @@ var LocalStorageDao = function (tabela) {
     });
   }
   
+  this.findLast = function () {
+    var lista = this.findAll();
+    return lista[lista.length -1] || null;
+  }
+  
   function existe(objeto) {
     if (objeto.id == null) {
       return false;
