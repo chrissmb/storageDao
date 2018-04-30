@@ -1,4 +1,4 @@
-var StorageDao = function (tabela) {
+var LocalStorageDao = function (tabela) {
   var self = this;
   
   function addId(objeto) {
